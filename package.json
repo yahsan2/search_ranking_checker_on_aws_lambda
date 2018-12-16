@@ -4,9 +4,13 @@
   "main": "index.js",
   "author": "chimame",
   "license": "MIT",
+  "scripts": {
+    "build": "netlify-lambda -c build functions",
+  },
   "dependencies": {
     "@serverless-chrome/lambda": "^1.0.0-55",
     "chrome-remote-interface": "^0.26.1",
+    "netlify-lambda": "^1.1.1",
     "puppeteer": "^1.10.0"
   }
 }
